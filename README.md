@@ -29,7 +29,7 @@ The application is deployed and accessible online. Visit the deployed website to
 1. Clone the repository:
 
    ```bash
-   git clone [<repository-url>](https://github.com/subham24092001/academy)
+   git clone https://github.com/subham24092001/academy
    ```
 
 2. Navigate to the project directory:
