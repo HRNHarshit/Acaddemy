@@ -1,0 +1,111 @@
+.courseDetails {
+  display: flex;
+  width: 70vw;
+  margin: 25px auto;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 5px 4px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+.image > img {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.courseIntro {
+  width: 60%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+}
+
+.courseIntro .title {
+  color: black;
+  font-size: 26px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.courseIntro .title:hover {
+  text-decoration: underline;
+}
+
+.description {
+  margin-top: -10px;
+}
+
+.enroll_duration {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.enroll_status {
+  border-right: 2px solid grey;
+  padding-right: 10px;
+}
+
+.instructor {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.courseIntro span {
+  color: #717171;
+}
+
+.enroll_btn {
+  width: 90%;
+  position: absolute;
+  bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price {
+  font-size: 20px;
+}
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 7px 15px;
+  background: #ffe1cb;
+  cursor: pointer;
+  color: black;
+}
+
+.btn.closed {
+  color: grey;
+  cursor: no-drop;
+}
+
+.btn.closed:hover {
+  background: #ffe1cb;
+  color: grey;
+}
+
+.btn:hover {
+  background: #ff8228;
+  color: #fff;
+  transition: background 0.3s ease-in-out;
+}

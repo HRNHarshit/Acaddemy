@@ -1,0 +1,45 @@
+.courseList {
+  margin: 5vh auto;
+  max-width: 90vw;
+}
+
+.filters {
+  margin: 20px auto;
+  width: 100%;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.leftFilter {
+  display: flex;
+  gap: 30px;
+}
+
+.filterItem {
+  display: flex;
+  gap: 10px;
+}
+
+.filterItem > select {
+  cursor: pointer;
+}
+
+.allCourses {
+  margin-top: 50px;
+}
+
+.filters input {
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 2px 5px;
+  width: 200px;
+  color: #222;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.filters input:focus {
+  border: 2px solid black;
+}

@@ -1,0 +1,28 @@
+.details {
+  margin: 30px auto;
+  margin-bottom: 5vh;
+  max-width: 90vw;
+  padding: 20px;
+}
+
+.details .heading {
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.brief {
+  /* border: 2px solid black; */
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.brief img {
+  width: 40%;
+  border-radius: 10px;
+}
+
+.brief .right {
+  width: 60%;
+}
