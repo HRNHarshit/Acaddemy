@@ -63,10 +63,6 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 
 This project is licensed under the [MIT License](LICENSE).
 
-[Video Link]: <insert_video_link_here>
-[Deploy Link]: <insert_deployed_website_link_here>
+[Video Link]: https://drive.google.com/file/d/1ughhF1v0-80D_ZRHIszfp-kAXVPVoMlZ/view?usp=drive_link
+[Deploy Link]: https://65c7375211889947e78b12c6--willowy-dodol-f48df1.netlify.app/
 ```
-
-Replace `<insert_video_link_here>` and `<insert_deployed_website_link_here>` with the actual links to your demo video and deployed website.
-
-This `README.md` file provides an overview of the project, instructions for usage, technologies used, how to contribute, and the license information.
