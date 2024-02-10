@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 // react-router-dom
 import { Link } from "react-router-dom";
+// Assets
 import { Logo } from "../../asstes";
 
 const Navbar = () => {
@@ -28,10 +29,10 @@ const Navbar = () => {
   return (
     <div className={`navbar ${scrolled ? "scrolled" : ""}`}>
       <div className="container">
-        <div className="logo">
+        <Link className="logo" to="/">
           <img src={Logo} alt="Logo" />
           <span>Academy</span>
-        </div>
+        </Link>
         <div className="itemList">
           <Link to="/" className="item">
             Home

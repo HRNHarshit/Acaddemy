@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import "./CourseList.css";
 // Data
 import { data } from "../../data";
-import CourseDetails from "../../components/CourseDetails/CourseDetails";
+import { CourseDetails } from "../../components";
 
 const CourseList = () => {
   const [searchQuery, setSearchQuery] = useState("");

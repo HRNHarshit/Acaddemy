@@ -121,6 +121,11 @@
   cursor: pointer;
 }
 
+.completeButton.disabled {
+  cursor: no-drop;
+  background-color: #ffbe90;
+}
+
 .completeButton:hover {
   background-color: #ffbe90;
 }

@@ -6,7 +6,7 @@ export const SelectedContext = createContext();
 
 const SelectedProvider = ({ children }) => {
   // Course Selected Context
-  const [selectedCourse, setSelectedCourse] = useState([3, 6, 10]);
+  const [selectedCourse, setSelectedCourse] = useState([6, 10]);
   const [courseList, setCourseList] = useState([]);
 
   // Add the course

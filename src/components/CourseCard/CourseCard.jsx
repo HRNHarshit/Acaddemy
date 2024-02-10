@@ -34,11 +34,11 @@ const CourseCard = ({ course }) => {
   return (
     <div className="course" key={id}>
       <div className="overview">
-        <Link to={`/detail/${id}`}>
+        <Link to={`/courseDetail/${id}`}>
           <img src={image_url} alt={course_name} />
         </Link>
         <div className="course_details">
-          <Link to={`/detail/${id}`}>
+          <Link to={`/courseDetail/${id}`}>
             <h2>{course_name}</h2>
           </Link>
           <p>
@@ -61,7 +61,7 @@ const CourseCard = ({ course }) => {
           <div className="dueDateLabel">
             Due Date: <div className="date">{due_date}</div>
           </div>
-          <button className="completeButton" onClick={handleComplete}>
+          <button className={`completeButton ${completeCourse ? "disabled" : ""}`} onClick={handleComplete}>
             {completeCourse ? "Completed" : "Mark as Complete"}
           </button>
         </div>

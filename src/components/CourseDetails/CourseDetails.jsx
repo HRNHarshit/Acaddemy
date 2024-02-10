@@ -19,11 +19,11 @@ const CourseDetails = ({ course }) => {
 
   return (
     <div className="courseDetails">
-      <Link to={`/detail/${id}`} className="image">
+      <Link to={`/courseDetail/${id}`} className="image">
         <img src={image_url} alt={course_name} />
       </Link>
       <div className="courseIntro">
-        <Link to={`/detail/${id}`} className="title">
+        <Link to={`/courseDetail/${id}`} className="title">
           {course_name}
         </Link>
         <div className="description">{description}</div>
@@ -39,7 +39,7 @@ const CourseDetails = ({ course }) => {
         <div className="enroll_btn">
           <div className="price">$ {price}</div>
           <button className={`btn ${isEnrollmentClosed || isEnrolled ? "closed" : ""}`} disabled={isEnrollmentClosed || isEnrolled} onClick={handleEnroll}>
-            {isEnrolled ? "Enrolled" : isEnrollmentClosed ? "Fulled" : "Enroll Now"}
+            {isEnrolled ? "Enrolled" : isEnrollmentClosed ? "Full" : "Enroll Now"}
           </button>
         </div>
       </div>

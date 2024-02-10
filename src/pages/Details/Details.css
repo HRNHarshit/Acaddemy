@@ -3,10 +3,11 @@
   margin-bottom: 5vh;
   max-width: 90vw;
   padding: 20px;
+  font-size: 20px;
 }
 
 .details .heading {
-  font-size: 34px;
+  font-size: 1.8em;
   font-weight: 600;
 }
 
@@ -25,4 +26,79 @@
 
 .brief .right {
   width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.right .desc {
+  display: flex;
+  gap: 10px;
+}
+
+.right .desc > span {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-top: -3px;
+}
+
+p.instName {
+  font-size: 0.8em;
+}
+
+.instName > span {
+  color: #3f3f3f;
+  font-size: 1.2em;
+}
+
+p.head {
+  font-size: 1em;
+}
+
+p.head > span {
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.pricrbtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 10px;
+}
+
+.pricrbtn > button {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px 8px;
+  width: 120px;
+  background-color: #ff964c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pricrbtn > button.disabled {
+  cursor: no-drop;
+  background-color: #ff7e21;
+}
+
+.pricrbtn > button:hover {
+  background-color: #ff7e21;
+}
+
+.rest {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rest p.intro {
+  display: flex;
+}
+
+.syllabus > ul {
+  margin-left: 30px;
 }
