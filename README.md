@@ -1,6 +1,5 @@
 Sure, here's a sample `README.md` file based on the provided information:
 
-```markdown
 # Course Management System
 
 This is a Course Management System application built using React. It allows users to view course details, enroll in courses, and filter courses based on various criteria.
